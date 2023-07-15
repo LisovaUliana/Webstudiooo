@@ -108,35 +108,52 @@ a {
 
 /* Second-section */
 
-.second-section-list {
-  display: flex;
-  gap: 30px;
-}
-
-.second-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.second-section-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14285714;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-
-  margin-bottom: 10px;
-}
-
 .second-section-paragraph {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71428571;
-  letter-spacing: 0.03em;
-  color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+    margin-top: 10px;
 }
-
+.second-section-item {
+        width: 270px;
+        font-size: 14px;
+}
+.second-section-item::before{
+  
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.second-section-item:nth-child(1)::before{
+    background-image: url(../img/something.png);
+}
+.second-section-item:nth-child(2)::before{
+    background-image: url(../img/clock.png);
+}
+.second-section-item:nth-child(3)::before{
+    background-image: url(../img/diagrama.png);
+}
+.second-section-item:nth-child(4)::before{
+    background-image: url(../img/astronaut.png);
+}
+.second-section-list{
+        display: flex;
+        gap: 30px;
+        padding-top: 94px;
+        padding-bottom: 94px;
+        
+}
+.second-section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
 /* Work */
 
 .work {
