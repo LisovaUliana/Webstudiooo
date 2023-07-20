@@ -108,52 +108,77 @@ a {
 
 /* Second-section */
 
-.second-section-paragraph {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    color: #757575;
-    margin-top: 10px;
+.second-section-list {
+  display: flex;
+  gap: 30px;
 }
-.second-section-item {
-        width: 270px;
-        font-size: 14px;
+.ssit1::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-image: url(../img/something.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.second-section-item::before{
-  
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-color: #F5F4FA;
-    margin-bottom: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
+.ssit2::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-image: url(../img/clock.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.second-section-item:nth-child(1)::before{
-    background-image: url(../img/something.png);
+.ssit3::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-image: url(../img/diagrama.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.second-section-item:nth-child(2)::before{
-    background-image: url(../img/clock.png);
+.ssit4::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-image: url(../img/astronaut.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.second-section-item:nth-child(3)::before{
-    background-image: url(../img/diagrama.png);
-}
-.second-section-item:nth-child(4)::before{
-    background-image: url(../img/astronaut.png);
-}
-.second-section-list{
-        display: flex;
-        gap: 30px;
-        padding-top: 94px;
-        padding-bottom: 94px;
-        
+.second-section {
+  padding-top: 94px;
 }
 .second-section-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14285714;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+
+  margin-top: 33px;
+  margin-bottom: 10px;
 }
+
+.second-section-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71428571;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 /* Work */
 
 .work {
