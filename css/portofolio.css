@@ -18,7 +18,7 @@ a {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: solid red;
+  /* outline: solid red; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -132,6 +132,7 @@ a {
 
 .content-item {
   outline: solid #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .content-subtitle {
@@ -189,4 +190,7 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
+}
+.footer-list {
+    padding-bottom: 60px;
 }

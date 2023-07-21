@@ -23,4 +23,6 @@ img {
   margin: 0;
   width: 100%;
 }
-
+button {
+  border: none;
+}
